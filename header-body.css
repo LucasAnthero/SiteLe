@@ -5,6 +5,26 @@
     margin: 0px;
 }
 
+:root{
+    --cor0: #00E034;
+    --cor1: #1EB642;
+    --cor2: #2E8B44;
+    --cor3: #30613C;
+    --cor4: #243628;
+    --cor5: #2B332C;
+    --dou: #ba8b00;
+}
+
 body{
+    height: 100vh;
     background-image: url('imagens/walpaper1-jpg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+header{
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor2), var(--cor3), var(--cor4));
+    height: 200px;
+    width: 100%;
 }
