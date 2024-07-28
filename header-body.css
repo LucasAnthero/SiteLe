@@ -17,10 +17,7 @@
 
 body{
     height: 100vh;
-    background-image: url('imagens/walpaper1-jpg.jpg');
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center center;
+    background-color: var(--cor3);
 }
 
 header{
