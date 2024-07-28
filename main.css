@@ -1,4 +1,4 @@
-@charset "UTF-8";
+*@charset "UTF-8";
 
 :root{
     --cor0: #00E034;
@@ -16,4 +16,5 @@ main{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    background-attachment: fixed;
 }
