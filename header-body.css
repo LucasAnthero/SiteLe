@@ -18,10 +18,47 @@
 body{
     height: 100vh;
     background-color: var(--cor3);
+    font-size: 16px;
 }
 
 header{
     background-image: linear-gradient(to bottom, var(--cor1), var(--cor2), var(--cor3), var(--cor4));
-    height: 200px;
+    min-height: 200px;
     width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+header > h1{
+    text-align: center;
+    margin: 0px;
+    padding: 10px;
+    color: var(--cor5);
+    font-weight: bolder;
+    font-size: 2.3em;
+}
+header > p{
+    text-align: center;
+    color: var(--cor4);
+    margin-bottom: 95px;
+    font-size: 1.1em;
+}
+
+nav{
+    text-align: right;
+}
+nav > a{
+    padding: 0px 10px;
+    color: var(--dou);
+    text-decoration: none;
+}
+nav > a:visited{
+    color: var(--cor1);
+}
+nav > a:hover{
+    background-color: var(--cor1);
+    text-decoration: underline;
+    color: black;
+}
+nav > a:active{
+    color: white;
 }

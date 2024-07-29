@@ -12,9 +12,6 @@
 
 main{
     height: 100vh;
-    background-image: url('imagens/walpaper1-jpg.jpg');
-    background-repeat: no-repeat;
+    background: var(--cor3) url('imagens/walpaper1-jpg.jpg') center center no-repeat fixed;
     background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
 }
