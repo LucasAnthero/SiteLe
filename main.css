@@ -15,3 +15,12 @@ main{
     background: var(--cor3) url('imagens/walpaper1-jpg.jpg') center center no-repeat fixed;
     background-size: cover;
 }
+main > section{
+    background-color: white;
+    width: 800px;
+    height: 100%;
+    margin: auto;
+}
+main > section > article > h1{
+    
+}
