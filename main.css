@@ -11,16 +11,26 @@
 }
 
 main{
-    height: 100vh;
-    background: var(--cor3) url('imagens/walpaper1-jpg.jpg') center center no-repeat fixed;
-    background-size: cover;
-}
-main > section{
     background-color: white;
     width: 800px;
-    height: 100%;
     margin: auto;
+    padding: 15px;
 }
-main > section > article > h1{
-    
+main > section > h1{
+    text-align: center;
+    color: var(--cor5);
+    padding: 5px;
+    font-size: 1.6em;
+}
+main > section > article > h2{
+    text-align: left;
+    color: var(--cor4);
+    padding: 5px;
+    font-size: 1.3em;
+}
+main > section > article > p{
+    text-align: justify;
+    text-indent: 20px;
+    line-height: 1.5em;
+    padding: 5px;
 }
