@@ -8,15 +8,19 @@
     --cor4: #243628;
     --cor5: #2B332C;
     --dou: #ba8b00;
+    --fonth1: 'Prata';
 }
 
 main{
-    background-color: white;
-    width: 800px;
+    min-width: 320px;
+    max-width: 700px;
     margin: auto;
-    padding: 15px;
+    background-color: white;
+    padding: 5px 30px;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.534);
 }
 main > section > h1{
+    font-family: var(--fonth1);
     text-align: center;
     color: var(--cor5);
     padding: 5px;
